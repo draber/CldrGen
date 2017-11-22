@@ -1,0 +1,27 @@
+{
+    "name": "draber/cldr-gen",
+    "type": "library",
+    "description": "Scripts to generate parts of draber/CldrPhp",
+    "keywords": [
+		    "i18n",
+		    "cldr",
+		    "intl",
+		    "l10n"
+	],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dieter Raber",
+			"email" : "me@dieterraber.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/console": "~3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "draber\\CldrGen\\": "src/"
+        }
+    }
+}
